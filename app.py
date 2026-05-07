@@ -455,11 +455,11 @@ class BotInstance:
         req.screen_height = 1080
         req.screen_dpi = "280"
         req.processor_details = "ARM64 FP ASIMD AES VMH | 2865 | 4"
-        req.memory = 3003
+        req.memory = 7680
         req.gpu_renderer = "Adreno (TM) 640"
         req.gpu_version = "OpenGL ES 3.1 v1.46"
         req.unique_device_id = "Google|34a7dcdf-a7d5-4cb6-8d7e-3b0e448a0c57"
-        req.client_ip = "223.191.51.89"
+        req.client_ip = "172.123.44.0"
         req.language = "en"
         req.open_id = open_id
         req.open_id_type = "4"
@@ -493,10 +493,10 @@ class BotInstance:
         req.analytics_detail = b"FwQVTgUPX1UaUllDDwcWCRBpWA0FUgsvA1snWlBaO1kFYg=="
         req.loading_time = 13564
         req.release_channel = "android"
-        req.extra_info = "KqsHTymw5/5GB23YGniUYN2/q47GATrq7eFeRatf0NkwLKEMQ0PK5BKEk72dPflAxUlEBir6Vtey83XqF593qsl8hwY="
+        req.extra_info = "KqsHT1r9GNgPJ0nDb82dJ+mJ4wwzqfR9fk7HviQ+4tx58ObceZuLaFrmk9qaVIP+qB3CV0DG40yTeS+2h1GA1rqKtMVPLfDUz7rIThfm4ZKedCh3="
         req.android_engine_init_flag = 110009
         req.if_push = 1
-        req.is_vpn = 1
+        req.is_vpn = 0
         req.origin_platform_type = "4"
         req.primary_platform_type = "4"
         serialized = req.SerializeToString()
